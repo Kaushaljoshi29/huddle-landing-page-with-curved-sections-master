@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
+    <nav>
+      <img src="/images/logo.svg" alt="huddle-logo" class="nav-logo" />
+      <button class="nav-btn">Try it Free</button>
+    </nav>
+
+    <header class="container header-container">
+      <h1 class="header-heading">Build The Community Your Fans Will Love</h1>
+      <p class="header-description">
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you engage
+        in genuine discussion.
+      </p>
+      <button class="header-btn btn">Get Started For Free</button>
+      <img
+        src="/images/screen-mockups.svg"
+        alt="mockup-image"
+        class="header-mockup-image"
+      />
+      <div class="stats">
+        <div class="stats-left">
+          <img
+            src="/images/icon-communities.svg"
+            alt="icon-communities"
+            class="stats-image"
+          />
+          <h2 class="stats-heading">1.4k+</h2>
+          <p class="stats-description">Communities Formed</p>
+        </div>
+        <div class="stats-right">
+          <img
+            src="/images/icon-messages.svg"
+            alt="icon-communities"
+            class="stats-image"
+          />
+          <h2 class="stats-heading">2.7k+</h2>
+          <p class="stats-description">Messages Sent</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="grow generic-section">
+      <div class="grow-curve-top curve"></div>
+      <div class="container content-card-conatiner-bg">
+        <div class="right">
+          <img
+            src="/images/illustration-grow-together.svg"
+            alt=""
+            class="content-card-image"
+          />
+        </div>
+        <div class="left">
+          <h2 class="content-card-heading">Grow Together</h2>
+          <p class="content-card-description">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+      </div>
+      <div class="grow-curve-bottom curve"></div>
+    </section>
+
+    <section class="following generic-section">
+      <div class="container content-card-conatiner">
+        <div class="right">
+          <img
+            src="/images/illustration-flowing-conversation.svg"
+            alt=""
+            class="content-card-image"
+          />
+        </div>
+        <div class="left">
+          <h2 class="content-card-heading">Flowing Conversations</h2>
+          <p class="content-card-description">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="user generic-section">
+      <div class="user-curve-top curve"></div>
+      <div class="container content-card-conatiner-bg">
+        <div class="right">
+          <img
+            src="/images/illustration-your-users.svg"
+            alt=""
+            class="content-card-image"
+          />
+        </div>
+        <div class="left">
+          <h2 class="content-card-heading">Your Users</h2>
+          <p class="content-card-description">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+      </div>
+      <div class="user-curve-bottom curve"></div>
+    </section>
+
+    <section class="ready-to-bulid generic-section">
+      <div class="container">
+        <h2>Ready To Build Your Community?</h2>
+        <button class="get-started-btn btn">Get Started For Free</button>
+      </div>
+    </section>
+
+    <section class="footer generic-section-dark">
+      <div class="footer-curve-top curve"></div>
+      <div class="container container-grid">
+        <div class="footer-right">
+          <h2>Newsletter</h2>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <form method="get" class="footer-right-flex">
+            <input type="email" required class="footer-right-flex-input" />
+            <button class="footer-right-flex-btn btn">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-left">
+          <div class="footer-left-flex">
+            <div class="footer-left-flex-logo">
+              <img src="./images/icon-messages - Copy.svg" alt="" />
+              <h2 class="footer-left-flex-logo-text">Huddle</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+            <div class="footer-left-flex-contact-info">
+              <div class="email">
+                <img
+                  src="/images/icon-phone.svg"
+                  alt=""
+                  class="footer-left-flex-contact-icons"
+                />
+                <p>Phone: +1-543-123-4567</p>
+              </div>
+              <div class="email">
+                <img
+                  src="/images/icon-email.svg"
+                  alt=""
+                  class="footer-left-flex-contact-icons"
+                />
+                <p>email: example@huddle.com</p>
+              </div>
+            </div>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
